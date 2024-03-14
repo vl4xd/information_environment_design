@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5/"
+     xml:base="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Анализ_помещения -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Анализ_помещения">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Беседа -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Беседа">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Социальная_сеть"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Друзья -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Друзья">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Участники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Заказ_еды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Заказ_еды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Именинник -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Именинник">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Участники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инвентаризация_продуктов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инвентаризация_продуктов">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Калькулятор_банкетного_меню -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Калькулятор_банкетного_меню">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Площадка_объявлений -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Площадка_объявлений">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Приготовление_еды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Приготовление_еды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Проведение_опроса -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Проведение_опроса">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Расчет_количества_еды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Расчет_количества_еды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Расчет_стоимости_еды -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Расчет_стоимости_еды">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Родственники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Родственники">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Участники"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Сервис_доставки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Сервис_доставки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Социальная_сеть -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Социальная_сеть">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Инструменты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Участники -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Участники"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Формирование_бюджета_мероприятия -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Формирование_бюджета_мероприятия">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Формирование_списка_участников -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Формирование_списка_участников">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vlaxd/ontologies/2024/2/untitled-ontology-5#Процесс"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
